@@ -1,4 +1,4 @@
-FROM alpine
+FROM multiarch/alpine:armhf-edge
 
 ENV PROJECT_DIR=/data/src
 

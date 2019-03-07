@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '5.0.1'
 
-gem 'mysql2', '>= 0.3.13', '< 0.5'
+gem 'mysql2', '>= 0.4.9', '< 0.5'
 
 gem 'rack-cors', :require => 'rack/cors'
 
@@ -36,4 +36,7 @@ group :development, :test do
   gem 'capistrano-rvm'
   gem 'capistrano-sidekiq'
   gem 'capistrano-git-submodule-strategy', '~> 0.1.22'
+
+  gem 'bigdecimal'
+  gem 'json'
 end
